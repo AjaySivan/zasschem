@@ -1,0 +1,697 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Zasschem</title>
+    <!--/google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
+
+    <!--//google-fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+
+    <style>
+
+        
+
+    </style>
+
+    <!-- Font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- progressive counter script -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" ></script>
+    
+</head>
+<!--/Header-->
+
+<body>
+    <header id="site-header" class="fixed-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                <h1><a class="navbar-brand pe-xl-5 pe-lg-4" href="index.html">
+                    Zass<span class="log">chem</span>
+                    </a></h1>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-lg-auto my-2 my-lg-0 navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="myFunction()">Products
+                                  <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content" id="myDropdown">
+                                  <a href="garmentp.html">Garment Processing</a>
+                                  <a href="textilep.html">Textile Processing</a>
+                                  <a href="laundryh.html">Laundry Hygine</a>
+                                </div>
+                            </div> 
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="innovation.html">Innovation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+
+                    </ul>
+                    <script>
+                        /* When the user clicks on the button, 
+                        toggle between hiding and showing the dropdown content */
+                        function myFunction() {
+                          document.getElementById("myDropdown").classList.toggle("show");
+                        }
+                        
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function(e) {
+                          if (!e.target.matches('.dropbtn')) {
+                          var myDropdown = document.getElementById("myDropdown");
+                            if (myDropdown.classList.contains('show')) {
+                              myDropdown.classList.remove('show');
+                            }
+                          }
+                        }
+                    </script>
+
+                    <!--/search-right-->
+                    <ul class="header-search d-flex mx-lg-4">
+                        <li class="nav-item search-right">
+                            <a href="#search" class="" title="search"> <span class="fas fa-search me-lg-4" aria-hidden="true"></span></a>
+                            <!-- search popup -->
+                            <div id="search" class="pop-overlay">
+                                <div class="popup">
+                                    <h3 class="title-w3l two mb-4 text-left">Search Here</h3>
+                                    <form action="#" method="GET" class="search-box d-flex position-relative">
+                                        <input type="search" placeholder="Enter Keyword here" name="search" required="required" autofocus="">
+                                        <button type="submit" class="btn btn-primary"><span class="fas fa-search" aria-hidden="true"></span></button>
+                                    </form>
+                                </div>
+                                <a class="close" href="#close">×</a>
+                            </div>
+                            <!-- /search popup -->
+                        </li>
+                        <li class="nav-item propertyw3-btnhny">
+                            <a href="#get" class="btn btn-style btn-secondary">Start a Project</a>
+
+
+                        </li>
+                    </ul>
+                    <!--//search-right-->
+                </div>
+                <!-- toggle switch for light and dark theme -->
+                <div class="mobile-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <!-- //toggle switch for light and dark theme -->
+            </nav>
+        </div>
+    </header>
+    <!--//Header-->
+    <!--//Banner-slider-->
+    <section class="w3l-main-slider banner-slider position-relative" id="home">
+        <div class="owl-one owl-carousel owl-theme">
+            <div class="item">
+                <div class="slider-info banner-view banner-top1">
+                    <div class="container">
+                        <div class="banner-info header-hero-19">
+                            <h3 class="title-hero-19">Garment <span style="color: var(--bs-blue)">processing (NOVO)</span> </h3>
+                            <p class="w3hny-tag">Milestones in Garment Wet Processing (Green Chemistry & environmental Xenobiotic)</p>
+                            <a href="about.html" class="btn btn-style btn-primary mt-4">Read More</a>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- //main-slider -->
+
+    <section class="w3l-services-page w3l-bg-grey py-5" id="work">
+        <div class="container py-md-5 py-2">
+            <div class="text-center">
+                <h3 class="title-w3l">Inspired By Nature <span style="color: var(--bs-red)">Empowered By Innovation</span></h3>
+                <p>By connecting our unique competencies in chemical engineering and molecular biology, Atlantic is driving revolutionary changes in the above said Industries in terms of environmental progress, energy saving and water conservation and creating sustainable value to all customers, employees and stake holders</p>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Research & Development</a></h4>
+                            <p class="text-para">We vigorously invest in Research & Development to discover and develop new chemicals that meet the needs of ever-changing trends, keeping them economical with a deep.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-key"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                Specialty Products</a></h4>
+                            <p class="text-para">In the rising cost of business, concerned industries are not just bound by the market pressure to bring the cost down but also have to abide by all the regulations that environmentalists enforce.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-building"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Industry Knowledge</a></h4>
+                            <p class="text-para">A wide spectrum of customer base ranging from Africa to Gulf, from South Asia to Southeast Asia and Europe, keeps make our mind at work in a perpetual state as the requirements of each region.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-circle-notch"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">Circular Business Module</a></h4>
+                            <p class="text-para">Our organization is structured accordingly and focused on region specific customized chemical products. This unique architecture affords many benefits to our customers,We normally confined.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                Sustainability a wing to surge</a></h4>
+                            <p class="text-para">In the rising cost of business, concerned industries are not just bound by the market pressure to bring the cost down but also have to abide by all the regulations that environmentalists.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mt-lg-5 mt-4">
+                    <div class="grids-1 box-wrap">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="icon-info text-left">
+                            <h4><a href="#service" class="title-head mt-0">
+                                Product reach and road map</a></h4>
+                            <p class="text-para">The conventional finished products are released to the environment during normal use through evaporation of volatile components and rinsing down the drain of residual products after processing.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!--/w3-grids-->
+    <section class="w3l-passion-mid-sec py-5">
+        <div class="container py-md-5 py-3">
+            <div class="heading text-center mx-auto">
+            </div>
+            <!--/row-1-->
+            <div class="w3l-passion-mid-grids w3recent-works mt-5">
+                <!--/row-1-->
+                <div class="row w3l-passion-mid-grids">
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/g1.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+                                <h5 style="font-size: 3rem;font-weight:bolder;">1</h5>
+                                <h4><a href="#recent" class="title-head">
+                                    Circular business model</a></h4>
+                                <p class="text-para mt-2 mb-4">We follow a business model that strives for employing fewer materials and resources for producing products and/or services, extending the life of current products and/or services through refurbishment and remanufacturing and closing the loop of products life by recycle assessment". In short, we seek to reduce, retain, and recycle.</p>
+                                <a href="#" class="read-more-icon"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--//row-1-->
+                <!--/row-2-->
+                <div class="row partrow-2 w3l-passion-mid-grids mt-lg-5 mt-4">
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+                                <h5 style="font-size: 3rem;font-weight:bolder;">2</h5>
+                                <h4><a href="#recent" class="title-head">
+                                    Green chemistry</a></h4>
+                                <p class="text-para mt-2 mb-4">Sustainable chemistry, termed as "green chemistry", aims at an improved efficiency of using natural resources for textile and garment wet processing.
+                                    It's our resolve to design and develop high performance chemical products from environmentally benign bio and organic chemicals.</p>
+                                <a href="#" class="read-more-icon"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/g2.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!--//row-2-->
+                <!--/row-3-->
+                <div class="row w3l-passion-mid-grids mt-lg-5 mt-4">
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/g3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+                                <h5 style="font-size: 3rem;font-weight:bolder;">3</h5>
+                                <h4><a href="#recent" class="title-head">
+                                    Views and Vows</a></h4>
+                                <p class="text-para mt-2 mb-4">It's our mission and resolve to develop safe sustainable products which have very low impact on environment, human and aquatic health, resource efficient production, products and process amalgamation to improve productivity and reduce consumption... in order to achieve this, we strictly follow following steps in our product designing.</p>
+                                <a href="#" class="read-more-icon"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--//row-3-->
+                <!--/row-4-->
+                <div class="row partrow-2 w3l-passion-mid-grids mt-lg-5 mt-4">
+                    <div class="col-lg-6 passion-grid-item-info p-0">
+                        <div class="w3grids-right-info">
+                            <div class="icon-text">
+                                <h5 style="font-size: 3rem;font-weight:bolder;">4</h5>
+                                <h4><a href="#recent" class="title-head">
+                                    Product reach and road map</a></h4>
+                                <p class="text-para mt-2 mb-4">Our products helping the world to ward off all the environmental & Health concern associated with conventional products. The conventional finished products are released to the environment during normal use through evaporation of volatile components and rinsing down the drain of residual products after processing or cleaning.</p>
+                                <a href="#" class="read-more-icon"><i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 w3grids-left-img p-0">
+                        <img src="assets/images/g4.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <!--//row-4-->
+                
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container py-md-5 py-3">
+            <h3 class="title-w3l" style="text-align: center;">Expertise In <span style="color: var(--bs-red)">Specialty Products</span></h3>
+            <p style="text-align: center;">Most of our innovations and product development are inspired by feed-back collected from our interactions with end-users and business owners.</p>
+        </div>
+    
+    <!-----------------     Progressive number counter     ----------------->
+    <div class="anc">
+        <div class="wrapper">
+            <div class="counter-box">
+                <i class="fa-solid fa-calendar-days"></i>
+                <div><span class="counter">40</span><span>+</span></div>
+                <span class="text">Years of Experience</span>
+            </div>
+            <div class="counter-box">
+                <i class="fa-solid fa-person-walking-luggage"></i>
+                <div><span class="counter">60</span><span>k</span></div>
+                <span class="text">Happy Clients</span>
+            </div>
+            <div class="counter-box">
+                <i class="fa-solid fa-face-smile-beam"></i>
+                <div><span class="counter">100</span><span>%</span></div>
+                <span class="text">Satisfaction</span>
+            </div>
+            
+        </div>
+    
+    </div>
+</section>
+
+    <!--/grids-grids-->
+<section style="width: 80%; margin: auto; margin-top: 6.25rem; margin-bottom: 6.25rem;">
+    <ul class="gallery_agile">
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr1.jpg">
+                    <img src="assets/images/gr1.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Research & Development</h3>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr2.jpg">
+                    <img src="assets/images/gr2.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Specialty Products</h3>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr3.jpg">
+                    <img src="assets/images/gr3.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Industry Knowledge</h3>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr4.jpg">
+                    <img src="assets/images/gr4.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Circular Business Model</h3>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr5.jpg">
+                    <img src="assets/images/gr5.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Sustainability A Wing To Surge</h3>
+                            
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </li>
+        <li>
+            <div class="w3_agile_portfolio_grid">
+                <a href="assets/images/gr6.jpg">
+                    <img src="assets/images/gr6.jpg" alt=" " class="img-fluid radius-image" />
+                    <div class="w3layouts_news_grid_pos">
+                        <div class="wthree_text">
+                            <h3>Product Reach & Road Map</h3> 
+                        </div>
+                    </div>
+                </a>
+            </div>
+        
+    </ul>
+</section>
+    <!--//rids-grids-->
+
+ 
+        
+   
+    <!--//w3-grids-->
+
+    
+    <!--//w3-grids-->
+
+    <!--/w3l-join-main-->
+    <section class="w3l-join-main py-5">
+        <div class="container py-md-5 py-4">
+            <div class="w3l-project-in">
+                <div class="bottom-info">
+                    <div class="header-section">
+                        
+                        <h3 class="title-w3l two mb-2">How <span style="color: var(--bs-red)">Our Business </span>
+                        </h3>
+                        <h6 class="title-subhny two">...a circular business model to become a purpose driven leader …</h6>
+                        <p class="mb-3">A sustainable business model which participates in environmentally friendly or green activities to ensure that all processes, products, and manufacturing activities adequately address the current environmental concerns while maintaining a profit, (People- Planet- Profit concept).A synthetically designed model of business that “meets the needs of the present” without compromising the ability of future generations to meet their own needs.</p>
+                        <div class="w3banner-content-btns">
+
+                            <a href="#contact" class="btn btn-style btn-primary mt-4">EXPLORE OUR PRODUCTS </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//w3l-join-main-->
+    <br />
+
+    <section>
+        <div class="container py-md-5 py-3" style="text-align: center;">
+            <h3 class="title-w3l" >From The <span style="color: var(--bs-red)">Directors Desk </span></h3>
+            <blockquote style="font-size: 1.5rem; font-weight: bold;">
+                <i class="fas fa-quote-left me-2"></i>
+                    Together to make a shift to green production and circular business
+                    <i class="fas fa-quote-right me-2"></i>
+            </blockquote>
+            <p style="text-align: center;font-size: 1rem;">‘We have a responsibility to protect the very nature which sustain us. Once we make the intent and step out for this and to embrace life around us, there will be genius, creativity and life affirming legacies that will express through each and everyone of us and together we will create a tapestry of perfect world for the generations to come’</p>
+            <div style="max-width: 500px; margin: auto;"><br />
+                <blockquote style="font-size: 0.8rem; font-style:italic; font-weight:lighter;">
+                    <i class="fas fa-quote-left me-2"></i>
+                    There has to be something that someone can do,
+                    To protect the environment sustain around us
+                    That if we don’t heed the problem at hand,
+                    It’s our life that at stake, and also the life around.
+                    
+                    A fractured earth and the relations sore,
+                    A greed that break our natural core,
+                    And the waves will monsters on the shore,
+                    A kingdom conquered, the blood they pour                        <i class="fas fa-quote-right me-2"></i>
+                </blockquote>
+                <h5>Dr. Ravichandran L
+                    Director - Product Innovation
+                    </h5>
+            </div>
+        </div>
+    </section>
+
+    <!-- features-section -->
+    <section class="w3l-features py-5" id="features">
+        <div class="container py-lg-5">
+            <div class="row pb-lg-5 mb-lg-5 pt-lg-3">
+                <div class="col-lg-5 text-left">
+                    <h3 class="title-w3l two">Our Wide Range Of <span style="color: var(--bs-red)">Certifications
+                    </span></h3>
+                </div>
+                <div class="col-lg-7 text-left ps-lg-5">
+                    <p class="w3p-white">We follow a business model that strives for employing fewer materials and resources for producing products and/or services, extending the life of current products and/or services through refurbishment and remanufacturing and closing the loop of products’ life by recycle assessment”. In short, we seek to reduce, retain, and recycle.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--//features-section -->
+    
+
+    <!--/footer-->
+    <footer class="w3l-footer">
+        <div class="w3l-footer-16 py-5">
+            <div class="container py-md-5">
+                <div class="row footer-p">
+                    <div class="col-lg-6 col-md-6 pe-lg-5">
+                        <h2 class="footerw3l-logo"><a class="navbar-brand" href="index.html">
+                            Zass<span class="log">chem</span>
+                            </a></h2>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <p> wide spectrum of customer base ranging from Africa to Gulf, from South Asia to Southeast Asia and Europe, keeps make our mind at work in a perpetual state as the requirements of each region is specific both in economic, environmental and technical terms.</p>
+                    </div>
+                </div>
+                <div class="row footer-p mt-5 pt-lg-4">
+                    <div class="col-lg-4 col-md-6 pe-lg-5">
+                        <div class="column">
+                            <h3>Phone</h3>
+                            <p><a href="tel:+(21) 255 088 4943">+(21) 255 088 4943</a></p>
+                        </div>
+
+                        <div class="column mt-lg-5 mt-4">
+                            <h3>Address </h3>
+                            <p>Zasschem, Honey Street,Main Road
+                                London, UK - 62617.</p>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+
+                        <div class="column">
+                            <h3>Support</h3>
+                            <p><a href="mailto:finagenc@mail.com" class="mail">finagenc@mail.com</a></p>
+                        </div>
+                        <div class="column mt-lg-5 mt-4">
+                            <h3>Follow</h3>
+                            <ul class="social">
+                                <li><a href="#facebook"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li><a href="#linkedin"><i class="fab fa-linkedin-in"></i></a>
+                                </li>
+                                <li><a href="#twitter"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li><a href="#google"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4 col-md-6 mt-lg-0 mt-4 pl-xl-0">
+                        <h3>Newsletter</h3>
+                        <div class="end-column">
+                            <form action="#" class="subscribe d-flex" method="post">
+                                <input type="email" name="email" placeholder="Email Address" required="">
+                                <button class="btn btn-secondary"><i class="fas fa-paper-plane"></i></button>
+                            </form>
+                            <p class="mt-4">Subscribe to our mailing list and get updates to your email inbox.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="below-section pt-lg-4 mt-5">
+                    <div class="row">
+
+                        <p class="copy-text col-lg-7">&copy; 2024 Zasschem. All rights reserved.
+                        </p>
+                        <div class="col-lg-5 w3footer-gd-links d-flex">
+
+                            <a href="#privacy">Privacy Policy</a>
+                            <a href="#terms" class="mx-3">Terms of service</a>
+                            <a href="#faq">FAQ</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!--/Js-scripts-->
+    <!-- move top -->
+    <button onclick="topFunction()" id="movetop" title="Go to top">
+        <span class="fas fa-arrow-up" aria-hidden="true"></span>
+    </button>
+
+     <!-- progressive counter script -->
+
+     <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+     <script src="jquery.counterup.min.js"></script>
+     <script>
+        /*-----------------     progressive counter script    -----------------*/
+
+        jQuery(document).ready(function($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+
+    </script>
+        
+
+ 
+   
+
+    <script>
+        //  When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+    </script>
+    <!-- move-top -->
+     <!-- Template JavaScript -->
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    
+    // <!-- MENU-JS -->
+    <script>
+        $(window).on("scroll", function() {
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 80) {
+                $("#site-header").addClass("nav-fixed");
+            } else {
+                $("#site-header").removeClass("nav-fixed");
+            }
+        });
+
+        //Main navigation Active Class Add Remove
+        $(".navbar-toggler").on("click", function() {
+            $("header").toggleClass("active");
+        });
+        $(document).on("ready", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+            $(window).on("resize", function() {
+                if ($(window).width() > 991) {
+                    $("header").removeClass("active");
+                }
+            });
+        });
+
+    </script>
+    // <!-- //MENU-JS -->
+
+    // <!-- disable body scroll which navbar is in active -->
+    <script>
+        $(function() {
+            $('.navbar-toggler').click(function() {
+                $('body').toggleClass('noscroll');
+            })
+        });
+
+    </script>
+    <!-- //disable body scroll which navbar is in active -->
+
+    
+    <!-- //bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+   
+
+    
+
+</body>
+
+</html>
